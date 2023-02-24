@@ -9,7 +9,7 @@
 '''
 import numpy as np
 from collections import  defaultdict
-data = np.loadtxt('station20230105free.csv', dtype=str, delimiter = ',', skiprows = 1, encoding = 'utf8')
+data = np.loadtxt('station20230105free.csv', dtype=str, delimiter=',', skiprows=1, encoding='utf8')
 station_code = defaultdict(set)
 station_name = set()
 same_station_name = set()
