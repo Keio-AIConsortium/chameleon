@@ -1,0 +1,26 @@
+/*common*/
+h1{
+  margin: 0;
+  text-align: center;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+/*header*/
+header{
+  background: rgb(251, 126, 126);
+}
+
+/*main*/
+.icon{
+	width: 210px;
+	height: 140px;	
+}
+
+/*footer*/
+footer{
+  text-align: center;
+  background: rgb(135, 255, 143);
+}
